@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+
+
+
+
+
+
+
+:root {
+    --bg-color: #e58f00;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    height: 100vh;
+}
+
+
+
+.hero .hero-content button {
+    background: var(--bg-color);
+}
+
+.hero .hero-content h1 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--bg-color);
+}
