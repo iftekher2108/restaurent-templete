@@ -17,6 +17,16 @@
     margin: 0;
 }
 
+button.navbar-toggler.d-lg-none {
+    box-shadow: none !important;
+}
+
+
+li a,h1 {
+    font-family: 'Poppins', sans-serif;
+
+}
+
 .hero {
     height: 100vh;
 }
@@ -31,3 +41,64 @@
     font-family: 'Poppins', sans-serif;
     color: var(--bg-color);
 }
+
+.content.col-5.position-absolute {
+    margin-top: -40%;
+}
+.content.col-5.position-absolute small {
+    word-spacing: -1px;
+}
+
+.enjoy-food {
+    height: 100vh;
+}
+
+.our-menu img {
+    aspect-ratio: 3/2;
+}
+
+.best-meal {
+    overflow: hidden;
+}
+
+.best-meal img {
+transform: scale(1.2);
+}
+
+@media  screen and (max-width:540px) {
+    .best-meal img {
+        transform: scale(1);
+    }
+}
+
+
+
+
+
+
+/* footer content section start here */
+.social-media a i {
+    padding: 10px;
+
+    background: white;
+    color: black;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.social-media a i:hover {
+    color: white;
+    background: var(--bg-color);
+}
+
+
+.footer-content span {
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-content span:hover {
+    color: #e58f00;
+    text-transform: uppercase;
+}
+
+
+/* footer content section start here */
