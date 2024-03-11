@@ -221,6 +221,10 @@ a.nav-link:hover {
     background: var(--bg-color);
 }
 
+.social-media a:hover i {
+    color: white;
+}
+
 .footer-content a {
     text-decoration: none;
     transition: all 0.3s ease-in-out;
